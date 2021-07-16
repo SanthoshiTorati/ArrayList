@@ -1,0 +1,15 @@
+import java.util.*;
+class Newtopic
+{
+public static void main(String args[])
+{
+ArrayList<String>a1=new ArrayList<String>();
+ArrayList<String>a2=new ArrayList<String>();
+ArrayList<String>a3=new ArrayList<String>();
+a1.add("Aditya");
+a2.add("College");
+a3.addAll(a1);
+a3.addAll(a2);
+System.out.println("the array is= "+a3);
+}
+}
